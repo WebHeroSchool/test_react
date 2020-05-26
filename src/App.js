@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter , Route, NavLink } from 'react-router-dom';
 
 
 
 
 const App = () => (
-  <Router>
+  <BrowserRouter>
     <div >
       <a
         href='https://webheroschool.ru/'
@@ -26,7 +26,7 @@ const App = () => (
       <Route path='/' exact  />
       <Route path='/todo'  />
     </div>
-  </Router>
+  </BrowserRouter>
 );
 
 
