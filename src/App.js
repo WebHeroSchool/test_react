@@ -16,7 +16,7 @@ const App = () => (
         <div ></div>
       </a>
       <div >
-        <NavLink to='/todo' >
+            <NavLink to='/todo' >
           Дела
         </NavLink>
         <NavLink to='/' >
